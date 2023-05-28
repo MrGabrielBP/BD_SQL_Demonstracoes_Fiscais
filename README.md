@@ -48,7 +48,12 @@ Foi necessário utilizar uma tabela temporária chamada "tabela_temporaria" (sem
 ## Consultas SQL
 
 - Consulta 1: Obtém as 10 operadoras com maiores despesas com "EVENTOS/ SINISTROS CONHECIDOS OU AVISADOS DE ASSISTÊNCIA A SAÚDE MEDICO HOSPITALAR" no último trimestre de 2020.
+
+![Resultado query 1](https://github.com/MrGabrielBP/BD_SQL_Demonstracoes_Fiscais/blob/main/resultado%20query%201.png)
+
 - Consulta 2: Obtém as 10 operadoras com maiores despesas com "EVENTOS/ SINISTROS CONHECIDOS OU AVISADOS DE ASSISTÊNCIA A SAÚDE MEDICO HOSPITALAR" no ano de 2019.
+
+![Resultado query 2](https://github.com/MrGabrielBP/BD_SQL_Demonstracoes_Fiscais/blob/main/resultado%20query%202.png)
 
 A fim de calcular as despesas das empresas com base nos valores do arquivo CSV fornecido, utiliza-se a coluna "VL_SALDO_FINAL" para a conta contábil específica relacionada às despesas. A descrição dessa conta contábil é "EVENTOS/ SINISTROS CONHECIDOS OU AVISADOS DE ASSISTÊNCIA A SAÚDE MEDICO HOSPITALAR".
 
@@ -67,6 +72,6 @@ Siga as etapas abaixo para utilizar o projeto:
 git clone https://github.com/MrGabrielBP/BD_SQL_Demonstracoes_Fiscais.git
 ```
 2. Certifique-se de ter o PostgreSQL instalado e configurado.
-3. No arquivo do código SQL, defina os caminhos completos (dentro do comando COPY) para os arquivos CSV que você deseja importar para o banco de dados (os arquivos CSV utilizados estão aqui no repositório do GitHub.
+3. No arquivo do código SQL `codigo.sql`, defina os caminhos completos (dentro do comando COPY) para os arquivos CSV que você deseja importar para o banco de dados (os arquivos CSV utilizados estão aqui no repositório do GitHub.
 4. Execute o código SQL no seu ambiente PostgreSQL para criar as tabelas e importar os dados dos arquivos CSV.
 5. Após a importação dos dados, você pode executar as queries mencionadas para obter os relatórios de despesas das operadoras.
